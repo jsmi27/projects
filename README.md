@@ -1,4 +1,5 @@
-# Steps to kill any process running on port 8080 because tomcat server will need it to run these projects.
+#Steps to kill any process running on port 8080 because tomcat server will need it to run these projects. 
+
 <b><u>Windows:</u></b></br>
 netstat -ano | findstr :8080       <br/>
 taskkill /PID <pid> /F             &nbsp;
